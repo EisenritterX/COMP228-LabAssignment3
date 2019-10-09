@@ -29,6 +29,7 @@ public class Employee {
         this.salary=salary;
     }
 
+    @Override
     public String toString(){
         String result = "Name: " + this.getName()+"\n";
         result += "Yearly Salary: " + this.getSalary() + "\n";
