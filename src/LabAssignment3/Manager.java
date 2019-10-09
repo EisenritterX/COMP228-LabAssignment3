@@ -11,6 +11,12 @@ public class Manager extends Employee{
         this.dept = dept;
     }
 
+    public Manager(Employee e, String dept){
+        setName(e.getName());
+        setSalary(e.getSalary());
+        this.dept = dept;
+    }
+
     public void setDept(String dept){
         this.dept = dept;
     }

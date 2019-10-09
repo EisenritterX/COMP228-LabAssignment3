@@ -18,4 +18,11 @@ public class Executive extends Manager {
     public void setYearlyBonus(double yearlyBonus) {
         this.yearlyBonus = yearlyBonus;
     }
+
+    @Override
+    public String toString() {
+        String result = super.toString();
+        result += "YearlyBonus: " +this.getYearlyBonus()+"\n";
+        return result;
+    }
 }
